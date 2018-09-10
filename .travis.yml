@@ -5,6 +5,6 @@ services:
 before_install:
   - docker build -t sean0923/docker-react-step-grid -f Dockerfile.dev .
 
-scripts:
+script:
   - docker run sean0923/docker-react-step-grid npm run test -- --coverage
  
