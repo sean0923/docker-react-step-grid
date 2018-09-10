@@ -6,5 +6,5 @@ before_install:
   - docker build -t sean0923/docker-react-step-grid -f Dockerfile.dev .
 
 scripts:
-  - docker run sean0923/docker-react-step-grid npm test -- --coverage
+  - docker run sean0923/docker-react-step-grid npm run test -- --coverage
  
